@@ -7,7 +7,7 @@ Template.newForm.events({
 		let lastName = template.find('#lastName').value;
 		let quote = template.find('#quote').value;
 		let gender = template.find('#gender').value;
-		let github = template.find('#githubLink').value;
+		let githubLink = template.find('#githubLink').value;
 		console.log(firstName);
 	}
 })
