@@ -1,7 +1,7 @@
 
 
 Template.newForm.events({
-	'submit form': function(event, template) => {
+	'submit form': function(event, template) {
 		event.preventDefault();
 		let firstName = template.find('#firstName').value;
 		let lastName = template.find('#lastName').value;
